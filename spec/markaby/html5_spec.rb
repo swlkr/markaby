@@ -112,4 +112,16 @@ describe Markaby do
 
     doc.should include('<div data-foo="bar"/>')
   end
+
+  it "should allow summary tag" do
+    doc = mab do
+      html5 do
+        details do
+          summary "summary"
+        end
+      end
+    end
+
+    doc.should include('<details><summary>summary</summary></details>')
+  end
 end

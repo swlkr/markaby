@@ -256,6 +256,7 @@ module Markaby
       :ruby => Attrs,
       :section => Attrs,
       :source => Attrs,
+      :summary => Attrs,
       :time => Attrs,
       :track => Attrs,
       :video => Attrs,
