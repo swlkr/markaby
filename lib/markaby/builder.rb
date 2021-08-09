@@ -26,7 +26,7 @@ module Markaby
 
     GENERIC_OPTIONS = {
       :indent                 => 0,
-      :auto_validation        => true,
+      :auto_validation        => false,
     }
 
     HTML5_OPTIONS   = HTML5.default_options.dup
